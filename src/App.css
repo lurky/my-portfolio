@@ -5,12 +5,25 @@ body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
+body > .container {
+  background-color: transparent !important;
+}
+
 :root {
   --primary-white: #fff;
   --primary-dark: #244242;
 }
 /*********************** NAVBAR ************************/
 
+#fixed-top{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+ 
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -26,27 +39,31 @@ nav ul li {
 /********************* HEADER **********************/
 
 .bg-header {
+  top: 0;
   background-size: cover;
   background-image: url('./bg-header.png');
   background-position: center;
-  height: 90vh;
+  height: 95vh;
   z-index: 0;
+  
 }
 .main-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+ 
+  
 }
 
 .bg-header > .container {
- padding-top: 5rem;
+  margin-top: 3rem;
+  
 }
 
 .main-info > h1 {
 color: var(--primary-white);
-padding-top: 5rem;
+padding-top: 15rem;
 }
 
 .main-info > button {
@@ -57,7 +74,7 @@ padding-top: 5rem;
 .main-info > span {
   display: flex;
   font-size: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   color: darkorange;
 }
 
@@ -65,10 +82,13 @@ padding-top: 5rem;
 .bg-experience {
   position: relative;
   background-size: cover;
-  background-color: var(--primary-dark);
+  background-color: burlywood;
   background-position: center;
   height: fit-content;
   z-index: 2;
+}
+body > .vertical-timeline-element-date {
+  color: var(--primary-white) !important;
 }
 
 /******************* PARTICLES ********************/
