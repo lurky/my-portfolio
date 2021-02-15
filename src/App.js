@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/NavBar";
 import Header from "./components/Header";
+import Experience from "./components/Experience"
 import Particles from 'react-particles-js';
  
 
@@ -89,9 +90,9 @@ function App() {
             },
           },
           detectRetina: true,
-        }}
-      />
+        }}/>
       <Header />
+      <Experience />
     </>
       
     
