@@ -10,6 +10,7 @@ body {
   --primary-dark: #244242;
 }
 /*********************** NAVBAR ************************/
+
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -19,26 +20,28 @@ nav ul li {
   text-transform: uppercase;
 }
 .navbar-nav > li > a {
-color: var(--primary-white) !important;
+  color: var(--primary-white) !important;
 }
 
 /********************* HEADER **********************/
 
 .bg-header {
-  position: relative;
   background-size: cover;
   background-image: url('./bg-header.png');
   background-position: center;
   height: 90vh;
-
+  z-index: 0;
 }
 .main-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
 
+}
+
+.bg-header > .container {
+ padding-top: 5rem;
 }
 
 .main-info > h1 {
@@ -47,7 +50,25 @@ padding-top: 5rem;
 }
 
 .main-info > button {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.main-info > span {
+  display: flex;
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: darkorange;
+}
+
+/*************** EXPERIENCE ********************/
+.bg-experience {
+  position: relative;
+  background-size: cover;
+  background-color: var(--primary-dark);
+  background-position: center;
+  height: fit-content;
+  z-index: 2;
 }
 
 /******************* PARTICLES ********************/
