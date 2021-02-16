@@ -7,6 +7,7 @@ import { ImBriefcase, ImLibrary } from "react-icons/im";
 
 const Experience = () => {
     return (
+      <a name="experience">
         <div className="bg-experience">
             <div className="container">
                <VerticalTimeline>
@@ -82,6 +83,7 @@ const Experience = () => {
 </VerticalTimeline>
             </div>
         </div>
+      </a>
     )
 }
 

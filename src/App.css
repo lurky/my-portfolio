@@ -84,7 +84,7 @@ padding-top: 15rem;
   background-size: cover;
   background-color: var(--primary-dark);
   background-position: center;
-  height: fit-content;
+  height: 100%;
   z-index: 2;
 }
 body > .vertical-timeline-element-date {
@@ -92,8 +92,6 @@ body > .vertical-timeline-element-date {
 }
 
 .timeline-date {
- 
-  
   color: var(--primary-white);
 }
 /******************* PARTICLES ********************/
