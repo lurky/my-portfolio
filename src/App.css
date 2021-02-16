@@ -82,15 +82,18 @@ padding-top: 15rem;
 .bg-experience {
   position: relative;
   background-size: cover;
-  background-color: burlywood;
+  background-color: var(--primary-dark);
   background-position: center;
-  height: fit-content;
+  height: 100%;
   z-index: 2;
 }
 body > .vertical-timeline-element-date {
   color: var(--primary-white) !important;
 }
 
+.timeline-date {
+  color: var(--primary-white);
+}
 /******************* PARTICLES ********************/
 
 .tsparticles-canvas-el {
@@ -99,3 +102,4 @@ body > .vertical-timeline-element-date {
   width: 100vw;
   z-index: 1;
 }
+
