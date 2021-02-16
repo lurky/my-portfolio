@@ -1,5 +1,6 @@
-import React from 'react';
-import Typed from 'react-typed';
+import React, {Card, Grid}from "react";
+import Typed from "react-typed";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -12,11 +13,13 @@ const Header = () => {
                     <Typed 
                 
                     strings={["Hi, I'm Michael Wood", "Hi, I'm motivated","Hi, I'm passionate", "Hi, I'm ready to get started"]}  
-                    typeSpeed={60}
-                    backSpeed={60}
-                    loop /> 
-                    <button type="button" class="btn btn-outline-warning btn-lg" rel="contact.js">Contact</button>
-                </div>
+                    typeSpeed={125}
+                    backSpeed={80}
+                    loop
+                    backDelay={1000}
+                    smartBackspace /> 
+
+                    </div>
             </div>
         </div>
     )
