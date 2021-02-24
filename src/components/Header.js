@@ -1,14 +1,15 @@
-import React, {Card, Grid}from "react";
+import React from "react";
 import Typed from "react-typed";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Projects from "./Projects";
 
 
 const Header = () => {
     return (
         <div className="bg-header">
             <div className="container">
-                <div className="main-info">
+                <div className="main-info front">
                     <h1>Software Developer</h1>
                     <Typed 
                 
@@ -18,7 +19,7 @@ const Header = () => {
                     loop
                     backDelay={1000}
                     smartBackspace /> 
-
+                
                     </div>
             </div>
         </div>
