@@ -1,8 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-import Projects from "./Projects";
+import Contact from "./Contact";
 
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
                     loop
                     backDelay={1000}
                     smartBackspace /> 
-                
+                    <Contact />
                     </div>
             </div>
         </div>
