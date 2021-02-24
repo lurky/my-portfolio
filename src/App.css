@@ -114,7 +114,14 @@ body > .vertical-timeline-element-date {
   align-items: center;
   text-align: center;
 }
-
+@media  (max-width: 480px) {
+  .bg-projects {
+    height: 115vh;
+  }
+  .projects-main-info {
+    padding-top: 5rem;
+  }
+}
 /************************ FOOTER ******************************/
 .bg-footer {
   background-color: #343a40;

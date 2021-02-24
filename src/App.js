@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
@@ -14,7 +14,7 @@ function App() {
   return (
     
     <>
-      <Navbar />
+      <NavBar />
       <Particles
         params={{
           "particles": {
