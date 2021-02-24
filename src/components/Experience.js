@@ -12,13 +12,13 @@ const Experience = () => {
             <div className="container">
               <VerticalTimeline>
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--education"
-                  dateClassName="timeline-date"
-                  date="April 2013"
+                  className="vertical-timeline-element--education front"
+                  dateClassName="timeline-date front"
+                  date="October 2019 - Present"
                   style={{marginTop:'5rem'}}
                   iconStyle={{ background: '#000', color: '#fff' }}
                   icon={<ImLibrary />}
-
+                  iconClassName="front"
                 >
                   <h3 className="vertical-timeline-element-title">B.S. Computer Information Sciences</h3>
                   <h4 className="vertical-timeline-element-subtitle">Software Developement</h4>
@@ -27,11 +27,12 @@ const Experience = () => {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                  dateClassName="timeline-date"
+                  className="vertical-timeline-element--work front"
+                  dateClassName="timeline-date front"
                   date="October 2020 - February 2021"
                   iconStyle={{ background: '#000', color: '#fff' }}
                   icon={<ImBriefcase/>}
+                  iconClassName="front"
                 >
                   <h3 className="vertical-timeline-element-title">Student Project Lead - ECPI University</h3>
                   <h4 className="vertical-timeline-element-subtitle">Remote</h4>
@@ -40,12 +41,12 @@ const Experience = () => {
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                  dateClassName="timeline-date"
+                  className="vertical-timeline-element--work front"
+                  dateClassName="timeline-date front"
                   date="May 2020 - August 2020"
                   iconStyle={{ background: '#000', color: '#fff' }}
                   icon={<ImBriefcase />}
-                  
+                  iconClassName="front"
                 >
                   <h3 className="vertical-timeline-element-title">Jr. Developer (Reactjs) - LifeTagger</h3>
                   <h4 className="vertical-timeline-element-subtitle">Remote</h4>
@@ -54,12 +55,12 @@ const Experience = () => {
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                            dateClassName="timeline-date"
+                  className="vertical-timeline-element--work front"
+                  dateClassName="timeline-date front"
                   date="August 2017 - October 2019"
                   iconStyle={{ background: '#000', color: '#fff' }}
-                            icon={<ImBriefcase />}
-                  
+                  icon={<ImBriefcase />}
+                  iconClassName="front"
                 >
                   <h3 className="vertical-timeline-element-title">Project Estimator</h3>
                   <h4 className="vertical-timeline-element-subtitle">Charleston, SC</h4>
@@ -68,12 +69,12 @@ const Experience = () => {
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                            dateClassName="timeline-date"
+                  className="vertical-timeline-element--work front"
+                  dateClassName="timeline-date front"
                   date="February 2016 -  August 2017"
                   iconStyle={{ background: '#000', color: '#fff' }}
-                            icon={<ImBriefcase />}
-                  
+                  icon={<ImBriefcase />}
+                  iconClassName="front"
                 >
                   <h3 className="vertical-timeline-element-title">Electrical Assembler</h3>
                   <h4 className="vertical-timeline-element-subtitle">North Charleston, SC</h4>

@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="bg-header">
             <div className="container">
-                <div className="main-info">
+                <div className="main-info front">
                     <h1>Software Developer</h1>
                     <Typed 
                 
@@ -21,9 +21,6 @@ const Header = () => {
                     smartBackspace /> 
                 
                     </div>
-                <div className="projects-wrapper">
-                    <Projects />
-                </div>
             </div>
         </div>
     )

@@ -18,23 +18,58 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 50
+              "value": 160,
+              "density": {
+                "enable": true
+              }
             },
             "size": {
-              "value": 3
+              "value": 5,
+              "random": true,
+              "anim": {
+                "speed": 2,
+                "size_min": 0.3
+              }
+            },
+            "line_linked": {
+              "enable": false
+            },
+            "move": {
+              "random": true,
+              "speed": 1,
+              "direction": "random",
+              "out_mode": "out"
             }
           },
           "interactivity": {
             "events": {
               "onhover": {
                 "enable": true,
+                "mode": "bubble"
+              },
+              "onclick": {
+                "enable": true,
                 "mode": "repulse"
+              }
+            },
+            "modes": {
+              "bubble": {
+                "distance": 250,
+                "duration": 2,
+                "size": 0,
+                "opacity": 0
+              },
+              "repulse": {
+                "distance": 400,
+                "duration": 4
               }
             }
           }
         }} />
       <Header />
-    
+      <div className="projects-wrapper">
+      <Projects />
+      </div>
       <Experience />
     </>
       

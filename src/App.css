@@ -13,6 +13,10 @@ body > .container {
   --primary-white: #fff;
   --primary-dark: #244242;
 }
+
+.front {
+  z-index: 2;
+}
 /*********************** NAVBAR ************************/
 
 #fixed-top{
@@ -52,13 +56,12 @@ nav ul li {
   flex-direction: column;
   align-items: center;
   text-align: center;
- 
-  
+
 }
 
 .main-info > h1 {
 color: var(--primary-white);
-padding-top: 5rem;
+padding-top: 15rem;
 }
 
 .main-info > button {
@@ -77,10 +80,10 @@ padding-top: 5rem;
 .bg-experience {
   position: relative;
   background-size: cover;
-  background-color: var(--primary-dark);
+  background-color: #25412D;
   background-position: center;
   height: 100%;
-  z-index: 2;
+  z-index: 0;
 }
 body > .vertical-timeline-element-date {
   color: var(--primary-white) !important;
@@ -92,13 +95,23 @@ body > .vertical-timeline-element-date {
 /******************* PARTICLES ********************/
 
 .tsparticles-canvas-el {
-  position: absolute;
-  height: 100vh;
+  position: fixed;
+  height: 65vh;
   width: 100vw;
   z-index: 1;
 }
 
 /***************************** PROJECTS *******************************/
-.projects-wrapper {
-  padding-top: 5rem;
+.bg-projects {
+    background-color:#4D5440;
+    height: 100vh;
+    width: 100%;
 }
+.projects-main-info {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
