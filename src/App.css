@@ -13,6 +13,9 @@ body > .container {
   --primary-white: #fff;
   --primary-dark: #244242;
 }
+.right {
+  right: 0;
+}
 
 .front {
   z-index: 2;
@@ -28,17 +31,13 @@ body > .container {
   z-index: 3;
 }
  
-nav a.nav-link {
+.nav-links {
+  float: right;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
  
-nav ul li {
-  text-transform: uppercase;
-}
-.navbar-nav > li > a {
-  color: var(--primary-white) !important;
-}
+
 
 /********************* HEADER **********************/
 

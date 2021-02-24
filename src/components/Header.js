@@ -6,6 +6,7 @@ import Contact from "./Contact";
 
 const Header = () => {
     return (
+        <a name="home">
         <div className="bg-header">
             <div className="container">
                 <div className="main-info front">
@@ -22,6 +23,7 @@ const Header = () => {
                     </div>
             </div>
         </div>
+        </a>
     )
 }
 
