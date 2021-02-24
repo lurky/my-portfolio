@@ -1,7 +1,8 @@
-import React, {Card, Grid}from "react";
+import React from "react";
 import Typed from "react-typed";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Projects from "./Projects";
 
 
 const Header = () => {
@@ -18,8 +19,11 @@ const Header = () => {
                     loop
                     backDelay={1000}
                     smartBackspace /> 
-
+                
                     </div>
+                <div className="projects-wrapper">
+                    <Projects />
+                </div>
             </div>
         </div>
     )

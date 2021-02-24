@@ -43,7 +43,7 @@ nav ul li {
   background-size: cover;
   background-image: url('./bg-header.png');
   background-position: center;
-  height: 95vh;
+  height: 100vh;
   z-index: 0;
   
 }
@@ -56,14 +56,9 @@ nav ul li {
   
 }
 
-.bg-header > .container {
-  margin-top: 3rem;
-  
-}
-
 .main-info > h1 {
 color: var(--primary-white);
-padding-top: 15rem;
+padding-top: 5rem;
 }
 
 .main-info > button {
@@ -103,3 +98,7 @@ body > .vertical-timeline-element-date {
   z-index: 1;
 }
 
+/***************************** PROJECTS *******************************/
+.projects-wrapper {
+  padding-top: 5rem;
+}
