@@ -1,6 +1,8 @@
 {
   "name": "my-folio",
-  "homepage": "http://micchaelwood.us",
+
+  "homepage": "http://michaelwood.us",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
