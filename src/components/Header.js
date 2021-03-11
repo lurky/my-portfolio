@@ -1,12 +1,12 @@
 import React from "react";
 import Typed from "react-typed";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-import Projects from "./Projects";
+import Contact from "./Contact";
 
 
 const Header = () => {
     return (
+        <a name="home">
         <div className="bg-header">
             <div className="container">
                 <div className="main-info front">
@@ -19,10 +19,11 @@ const Header = () => {
                     loop
                     backDelay={1000}
                     smartBackspace /> 
-                
+                    <Contact />
                     </div>
             </div>
         </div>
+        </a>
     )
 }
 

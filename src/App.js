@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
-import Experience from "./components/Experience"
+import Experience from "./components/Experience";
 import Particles from "react-particles-js";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
     
     <>
-      <Navbar />
+      <NavBar />
       <Particles
         params={{
           "particles": {
@@ -71,6 +72,9 @@ function App() {
       <Projects />
       </div>
       <Experience />
+      <div className="footer-wrapper">
+      <Footer />
+      </div>
     </>
       
     
