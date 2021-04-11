@@ -68,9 +68,6 @@ function App() {
           }
         }} />
       <Header />
-      <div className="projects-wrapper">
-      <Projects />
-      </div>
       <Experience />
       <div className="footer-wrapper">
       <Footer />
